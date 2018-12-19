@@ -1,0 +1,137 @@
+@charset "utf-8";
+
+body{font:12px 'Nanum Gothic', '����', Dotum, '����', sans-serif}
+body, div, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, p, form, fieldset, input, table, tr, th, td {margin:0px; padding:0px;}
+
+.jayClear {clear:both;}
+.jayOpacity {-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=10)"; filter:alpha(opacity=10); opacity:.1;}
+.jayEllipsis {text-overflow: ellipsis; white-space: nowrap; overflow: hidden; }
+a:link    {text-decoration:none; color:gray;}
+a:visited {text-decoration:none; color:gray;}
+a:hover   {text-decoration:none; color:black;}
+a:active  {text-decoration:none; color:black;}
+
+
+
+
+.centerArea {width:1600px; margin:0 auto; display:block; clear:both; position:relative; z-index:1;}
+#wrap {}
+	#header {padding:10px 0;}
+		#headerLeft {float:left;}
+			#headerLeft img {display:block; float:left; margin:0 0 0 14px;}
+			#headerLeft div {font-size:26px; letter-spacing:-2px; font-weight:700; float:left; margin:10px 0 0 33px;}
+		#headerRight {float:right; height:46px; line-height:46px; padding:0 20px 0 0;}
+			#headerRight .hs01 {color:#9e9d9d; font-size:14px; letter-spacing:-2px;}
+			#headerRight .hs02 {color:#695647; font-size:40px; font-weight:800; letter-spacing:-4px;}
+			#headerRight div {float:left; margin:0 10px;}
+			#headerRight img {float:left; display:block;}
+	#container {}
+	#footer {}
+	.contRow {}
+		.contLeft {float:left; width:313px; background:#66594e;}
+		.contRight {float:left; width:1287px;}
+			.contRow.rowVisual .contLeft {height:686px;}
+			.contRow.rowVisual .contRight img {float:left;}
+			#visualRowLeftTitle {}
+				#visualRowLeftTitleWrap {margin:35px 25px; padding:0 0 20px 0; text-align:center; background:url("../images/leftLine.jpg") 0 bottom repeat-x;}
+					#vrlt01 {font-size:22px; color:#ead6cb;}
+					#vrlt02 {font-size:44px; color:#f7ff10; font-weight:700; text-shadow:2px 2px 2px #39332D;}
+			#visualRowLeftFormTitle {position:relative; z-index:1;}
+				#vrlft {font-size:17px; color:#242424; height:54px; line-height:47px; letter-spacing:-1px; padding:0 0 0 20px; background:#dcc9be url("../images/gitBgBody.jpg") 0 0 repeat-x;}
+					#vrlft span {font-size:21px; color:#d0180c; font-weight:700;}
+					#vrlftBg {position:absolute; top:0px; right:0px; width:37px; height:54px; background:url("../images/gitBgRight.jpg") 0 0;}
+			#visualRowLeftvForm {}
+				#visualRowLeftvForm form {padding:10px 27px;}
+					.vRow {margin:10px 0;}
+						.vRowTitle {float:left; width:30%; font-size:15px; color:#fff; height:27px; line-height:27px;}
+						.vRowCont {float:left; width:70%;}
+							.vRowCont input[type="text"],
+							.vRowCont input[type="tel"] {width:100%; height:27px; line-height:27px; text-align:center;}
+							.vRowCont select {width:185px; height:32px; line-height:32px;}
+							.vRowCont input[type="text"] {}
+							.vRowCont input[type="tel"] {}
+							.vRowCont textarea {width:241px; height:130px; padding:10px; line-height:21px;}
+							.formDesc .formDescTel {float:left; width:33.33%;}
+							.formDesc .formDescTel.tel01Wrap div {padding:0 8px 0 0;}
+							.formDesc .formDescTel.tel02Wrap div {padding:0 4px 0 4px;}
+							.formDesc .formDescTel.tel03Wrap div {padding:0 0 0 8px;}
+							.formDesc input[type="tel"].onlyNumber {width:100%;}
+					.vRow.rw100per .vRowCont {width:100%;}
+					.vRow.priRow {margin:10px 0;}
+						.vRow.priRow .vRowCont div {float:left; font-size:13px; color:#ffffff; letter-spacing:-1px;}
+						.vRow.priRow .vRowCont div + div {float:right;}
+						.vRow.priRow .vRowCont div label {cursor:pointer; margin:0 0 0 10px;}
+						.vRow.priRow .vRowCont div input[type="radio"] {vertical-align:middle;}
+					.vRow.priRow02 {margin:10px 0;}
+						.vRow.priRow02 .vRowCont div + div {float:right;}
+						.vRow.priRow02 .vRowCont div + div a {background:#333; display:block; color:#fff; padding:5px 10px;}
+						.vRow.priRow02 .vRowCont div + div a:hover {background:#000;}
+					.vRow.contactRow {margin:20px 0;}
+						.vRow.contactRow a {display:block; background:#e32c1e; border:1px solid #e32c1e; font-size:18px; color:#fff; width:100%; text-align:center; padding:12px 0; box-shadow:4px 4px 0px #473e36;}
+						.vRow.contactRow a:hover {border:1px solid #fff;}
+			.contRow.rowDes .contLeft {background:#4d3527; color:#fff; font-size:16px; letter-spacing:-1px; line-height:22px; font-weight:700;}
+				.contRow.rowDes .contLeft a {display:block; font-size:15px; color:#202020; background:#dcc9be; padding:10px 0; text-align:center; width:160px; font-weight:700; margin:10px 0 0 0;}
+				.contRow.rowDes .contLeft a:hover {background:#9C7054; color:#fff;}
+					#rowDesLeftWrap {padding:30px; border-right:2px solid #66594e;}
+			.contRow.rowDes .contRight {background:#e8e4d9; height:155px; border-top:1px solid #c5a89e;}
+				#rowDesRightWrap {border-top:1px solid #fff; padding:35px 0 0 70px;}
+					.rowDesCont {float:left; margin:0 70px 0 0;}
+						.rowDesContImg {float:left;}
+							.rowDesContImg img {}
+						.rowDesContTxt {float:left; margin:15px 0 0 16px; letter-spacing:-1px;}
+							.rowDesContTxt01 {font-size:15px; color:#4d3527;}
+							.rowDesContTxt02 {font-size:21px; color:#4d3527; font-weight:700; margin:3px 0 0 0;}
+								.rowDesContTxt02 span {font-size:23px; color:#e32c1e;}
+			.contRow.rowFooter .contLeft {text-align:center; height:238px;}
+				.contRow.rowFooter .contLeft img {margin:80px 0 0 0;}
+			.contRow.rowFooter .contRight {background:#d9d2bf; border-top:1px solid #c5a89e;}
+				#rowFooterRightWrap {padding:24px 30px 40px 30px; border-top:1px solid #fff;}
+					#footerTop a {font-size:13px; color:#2d2d2d; font-weight:700;}
+					#footerTop a:hover {color:#000;}
+					#footerTop02 {font-size:14px; margin:10px 0;}
+					#footerTop03 {font-size:14px; margin:10px 0;}
+					#footerMiddle {font-size:13px; color:#6e563f; margin:8px 0 0 0;}
+					#footerMiddle div {float:left; margin:0 15px 0 0;}
+					#footerMiddle div span {font-weight:700;}
+
+
+
+
+
+/* 
+���� ������ ��� ��ġ ��Ȳ�� �°� �����Ұ� ------------------------
+��κ� pc, pad, mobile �������� ���·� px ���� �־� �������� ����ϰ� pad�� ����� ���� �پ����� px �� �����ϱ⺸��
+�̵�������� ������ �Ⱦ��� ������ �ִ��� float:left �� width���� %�� �־� ����� �پ�뿡 ���� �˾Ƽ� ������ ȭ���� 
+�����ֵ��� �����ϴ°��� �߿�.
+
+---- web agency - SALTCAKE ���ġ --------------------------------------------------
+default - mobile
+@media only screen and (min-width: 641px) {} // pad
+@media only screen and (min-width: 980px) {} // pc
+@media only screen and (min-width: 1281px) {} // wide pc
+
+
+---- twitter - Bootstrap�� ���ġ -------------------------------------------
+@media (min-width: 1200px) {} // wide pc
+@media (min-width: 980px) and (max-width: 1199px) {} // pc
+@media (min-width: 768px) and (max-width: 979px) {} // pad vertical + pc
+@media (max-width: 767px) {} // pad
+@media (max-width: 480px) {} //mobile
+---------------------------------------------------------------------
+
+
+---- leejinyoung.com v2.0 ���ġ --------------------------------------------------
+@media (min-width: 1281px) {} // wide pc 
+@media (min-width: 980px) and (max-width: 1280px) {} // pc
+@media (min-width: 641px) and (max-width: 979px) {} // pad
+@media (max-width: 640px) {} // mobile
+@media (max-width: 400px) {} // iPhone
+
+
+---- �ּҼ�ġ�� ����� --------------------------------------------------
+@media (min-width: 768px) {} // pc
+@media (max-width: 767px) {} // pad
+@media (max-width: 480px) {} // mobile
+*/
+
+

@@ -1,0 +1,17 @@
+<table class="ui table">
+    <tr valign="baseline">
+        <td>
+            <a href="/process/acceptList"><input type="button" class="ui secondary button" value="상담 신청 (최신)"></a>
+            <a href="/process/acceptListAll"><input type="button" class="ui secondary button" value="상담 신청 (전체)"></a>
+        <%
+            if(manager==='1') {
+        %>
+            <a href="/process/memberList"><input type="button" class="ui secondary button" value="사용자 목록"></a>
+        <%
+            }
+        %>
+        </td>
+        <td id="buttonContainer" class="right aligned">
+            &nbsp;&nbsp;&nbsp;<b><%=uname%>(<%=id%>)</b>&nbsp;&nbsp;<a href="/process/logout"><button class="ui negative button">로그아웃</button></a>
+        </td>
+</table>

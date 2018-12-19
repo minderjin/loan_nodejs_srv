@@ -1,0 +1,117 @@
+@charset "utf-8";
+
+body{font:12px 'Nanum Gothic', '굴림', Dotum, '돋움', sans-serif}
+body, div, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, p, form, fieldset, input, table, tr, th, td {margin:0px; padding:0px;}
+
+.jayClear {clear:both;}
+.jayOpacity {-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=10)"; filter:alpha(opacity=10); opacity:.1;}
+.jayEllipsis {text-overflow: ellipsis; white-space: nowrap; overflow: hidden; }
+a:link    {text-decoration:none; color:gray;}
+a:visited {text-decoration:none; color:gray;}
+a:hover   {text-decoration:none; color:black;}
+a:active  {text-decoration:none; color:black;}
+
+
+
+
+
+/* 
+이하 반응형 경계 수치 상황에 맞게 참고할것 ------------------------
+대부분 pc, pad, mobile 세가지의 형태로 px 값을 주어 나누지만 모바일과 pad의 사이즈가 워낙 다양해져 px 로 구분하기보단
+미디어쿼리를 가능한 안쓰는 내에서 최대한 float:left 와 width값을 %로 주어 사이즈가 줄어듬에 따라 알아서 최적의 화면을 
+보여주도록 구현하는것이 중요.
+
+---- web agency - SALTCAKE 경계치 --------------------------------------------------
+default - mobile
+@media only screen and (min-width: 641px) {} // pad
+@media only screen and (min-width: 980px) {} // pc
+@media only screen and (min-width: 1281px) {} // wide pc
+
+
+---- twitter - Bootstrap의 경계치 -------------------------------------------
+@media (min-width: 1200px) {} // wide pc
+@media (min-width: 980px) and (max-width: 1199px) {} // pc
+@media (min-width: 768px) and (max-width: 979px) {} // pad vertical + pc
+@media (max-width: 767px) {} // pad
+@media (max-width: 480px) {} //mobile
+---------------------------------------------------------------------
+
+
+---- leejinyoung.com v2.0 경계치 --------------------------------------------------
+@media (min-width: 1281px) {} // wide pc 
+@media (min-width: 980px) and (max-width: 1280px) {} // pc
+@media (min-width: 641px) and (max-width: 979px) {} // pad
+@media (max-width: 640px) {} // mobile
+@media (max-width: 400px) {} // iPhone
+
+
+---- 최소수치만 적용시 --------------------------------------------------
+@media (min-width: 768px) {} // pc
+@media (max-width: 767px) {} // pad
+@media (max-width: 480px) {} // mobile
+*/
+
+
+
+.redTxt {color:#ff1b1b;}
+.grayTxt {color:#505050;}
+.boldTxt700 {font-weight:700;}
+
+
+
+
+
+
+#cont01 {}
+	#cont01 img {float:left; width:100%;}
+#cont02 {}
+	#cont02 img {width:100%;}
+	#cont0201 {float:left; width:50%;}
+	#cont0202 {float:right; width:50%;}
+#cont03 {margin:5px 0 0 0; padding:10px; background:#facf56;}
+	#cont03Title {text-align:center; /* font-size:21px; color:#574e47; font-weight:700; letter-spacing:-2px; margin:0 0 20px 0;*/}
+		#cont03Title img {width:65%;}
+	#cont0301 {float:left; width:55%;}
+		#cont030101 {padding:0 13px 0 0;}
+			.fieldRow {margin:3px 0;}
+				.fieldRowTitle {width:25%; float:left;}
+					.fieldRowTitle img {width:100%;}
+				.fieldRowContents {width:75%; float:right;}
+					.fieldRowContents input[type="text"],
+					.fieldRowContents input[type="tel"] {width:100%; text-align:center; border:none; border:1px solid #EFEFEF;}
+					.formDesc .formDescTel {float:left; width:33.33%;}
+					.formDesc .formDescTel.tel01Wrap div {padding:0 4px 0 0;}
+					.formDesc .formDescTel.tel02Wrap div {padding:0 2px 0 2px;}
+					.formDesc .formDescTel.tel03Wrap div {padding:0 0 0 4px;}
+					.formDesc input[type="tel"].onlyNumber {width:100%;}
+			.fieldRow.lineRow {height:3px; margin:5px 0; background:url("../images/f04.jpg") center center repeat-x;}
+			.fieldRow.rowPer01 {}
+				.rp0101 {float:left; width:70%;}
+					.rp0101 img {width:80%;}
+				.rp0102 {float:right; width:30%;}
+					.rp0102 img {width:88%;}
+			.fieldRow.rowPer02 {}
+				.rp0201 {float:left; width:30%;}
+					.rp0201 img {width:68%;}
+				.rp0202 {float:right; width:65%;}
+					.rp0202 label {display:block; float:left; width:50%;}
+					.rp0202 input[type="checkbox"] {display:block; float:left;}
+					.rp0202 img {display:block; float:left; width:65%;}
+		#cont030102 {}
+	#cont0302 {float:right; width:45%;}
+		#cont0302 img {width:100%;}
+#cont04 {}
+	#cont04 img {float:left; width:100%;}
+
+
+
+
+@media (max-width: 570px) {
+}
+
+@media (max-width: 360px) {
+}
+
+
+
+
